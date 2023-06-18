@@ -1,12 +1,13 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-level_markup = InlineKeyboardMarkup(row_width=4,
+level_markup = InlineKeyboardMarkup(row_width=2,
                                     inline_keyboard=[
                                         [
                                             InlineKeyboardButton('1', callback_data='level:1'),
                                             InlineKeyboardButton('2', callback_data='level:2'),
                                             InlineKeyboardButton('3', callback_data='level:3'),
+                                            InlineKeyboardButton('4', callback_data='level:4'),
                                         ]
                                     ])
 
